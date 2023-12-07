@@ -39,7 +39,7 @@
  </div>
                     <div id="botones">
                         <div class="cada-boton">
-                            <a th:href="@{/index1}">
+                            <a th:href="@{/inicio}">
                                 <button  type="button" class="btn btn-outline-info">
                                     Home
                                 </button>
@@ -95,7 +95,11 @@
                             <div class="perfil-container" th:each="proveedor : ${proveedores}">
                                 <div class="perfil-header">
                                     <div class="foto-perfil">
+                                        <!-- <div th:each="imagen : ${listaDeImagenes}">
+                                            <img th:src="@{'/imagen/perfil/' + ${imagen.id}}" alt="Descripción de la imagen">
+                                        </div>  falta agregar la imagen de los perfiles  de proveedores--> 
                                     </div>
+                                    
                                     <h1 th:text="${proveedor.nombre}"></h1>
                                     <h1 th:text="${proveedor.apellido}"></h1>
                                 </div>

@@ -95,9 +95,10 @@
 }
 
 .foto-perfil {
+  background-image: url(https://iili.io/JIXQgcB.jpg);
     width: 150px;
     height: 150px;
-    background: #fff; /* Puedo cambiar esto por  imagen de perfil */
+    /*background: #fff;  Puedo cambiar esto por  imagen de perfil */
     border-radius: 50%;
     margin: 0 auto 5px;
 }
